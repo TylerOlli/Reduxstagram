@@ -13,7 +13,7 @@ import PhotoGrid from "./components/PhotoGrid";
 // import react router deps
 import { Router, Route, IndexRoute, browserHistory } from "react-router";
 import { Provider } from "react-redux";
-import store from "./store";
+import store, { history } from "./Store";
 
 import Raven from "raven-js";
 import { sentry_url, logException } from "./data/config";
