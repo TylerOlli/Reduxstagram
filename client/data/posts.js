@@ -1,227 +1,132 @@
 const posts = [
   {
     code: "BAcyDyQwcXX",
-    caption: "Lunch #hamont",
-    likes: 56,
+    caption: "Dog on a Motorcycle #Napolean 🐶🏍",
+    likes: 253,
     id: "1161022966406956503",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Dog-On-Motorcycle.jpg"
   },
   {
     code: "BAcJeJrQca9",
-    caption: "Snow! ⛄️🌨❄️ #lifewithsnickers",
-    likes: 59,
+    caption: "Great Place in Colombia",
+    likes: 159,
     id: "1160844458347054781",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Townhouse-Cartagena.jpg"
   },
   {
     code: "BAF_KY4wcRY",
-    caption:
-      "Cleaned my office and mounted my recording gear overhead. Stoked for 2016!",
+    caption: "Halloween in Disney 🎃",
     likes: 79,
     id: "1154606670337393752",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Halloween-At-Disney.jpg"
   },
   {
     code: "BAPIPRjQce9",
-    caption: "Making baby pancakes for one early rising baby. ☕️🍴",
+    caption: "Look at these neat sculptures we found in Cartgena!",
     likes: 47,
     id: "1157179863266871229",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Sculpture-In-Cartagena.jpg"
   },
   {
     code: "-hZh6IQcfN",
     caption:
-      "New Stickers just came in. I'll do another mailing in a few weeks if you want some. #javascript",
+      "Great beer after a long hard days work #dabble #beer #ipa #sixpointbrewery",
     likes: 66,
     id: "1126293663140399053",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Dabble-Beer.jpg"
   },
   {
     code: "-B3eiIwcYV",
-    caption: "Tacos for breakfast. I love you Austin. 🇺🇸",
+    caption:
+      "I built this shed all by myself with my bare hands 🤲🏼 #homeowner #handy #shed #workhard",
     likes: 33,
     id: "1117418173361145365",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Built-Shed.jpg"
   },
   {
     code: "BAhvZrRwcfu",
-    caption:
-      "Tried poke for the first time at @pokehbar. Delicious! It's like a bowl of sushi",
-    likes: 30,
+    caption: "This is Jerry, see how happy he looks 😎",
+    likes: 230,
     id: "1162418651480049646",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Smiling-Puppy.jpg"
   },
   {
     code: "BAAJqbOQcW5",
-    caption: "Brunchin'",
+    caption: "Wedding in Colombia. Look how beautiful this church is! 💒",
     likes: 40,
     id: "1152964002473690553",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Colombian-Church.jpg"
   },
   {
     code: "_4jHytwcUA",
-    caption:
-      "2015 can be summed up with one baby and a many lines of code. And sometimes a coding baby. 👶🏼⌨",
+    caption: "It's starting to feel like that time of year #coquito",
     likes: 62,
     id: "1150824171912152320",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Coquito.jpg"
   },
   {
     code: "_zbaOlQcbn",
-    caption: "Lekker Chocoladeletter",
+    caption: "These are my new favorite socks #bombas 🧦",
     likes: 52,
     id: "1149382879529256679",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Bombas-Socks.jpg"
   },
   {
     code: "_rmvQfQce8",
-    caption:
-      "Just discovered the #hamont farmers market has a new ramen place! 🍜",
+    caption: "Beautiful island we visited 🏝",
     likes: 35,
     id: "1147180903383025596",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/St-Maarten.jpg"
   },
   {
     code: "_ep9kiQcVy",
-    caption: "⛄️",
+    caption: "This is Charlite... he's really hungry",
     likes: 64,
     id: "1143535906423162226",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "_XpJcrwcSn",
-    caption: "6 page spread on flexbox in this months netmag!",
-    likes: 74,
-    id: "1141561999742846119",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "_KnU7MwceA",
-    caption: "Hanging out in my office waiting for 5:00 beers to come around.",
-    likes: 54,
-    id: "1137894817632733056",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "_HMejJQcY5",
-    caption: "Today I learned that a long pull espresso is called a 'lungo'",
-    likes: 18,
-    id: "1136932306813044281",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Feed-Me-NOW.jpg"
   },
   {
     code: "_Fq2zmwcaz",
-    caption: "Awesome hand lettered gift from @eunibae and the HackerYou crew.",
+    caption: "Best place to golf in all of Orlando golf 🏌🏻‍♂️⛳️",
     likes: 48,
     id: "1136502965197194931",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src:
+      "https://reduxstagram.io/client/img/Grand-Cypress-Golf-Resort.jpg"
   },
   {
     code: "_A2r0aQcfD",
-    caption:
-      "Some serious hardware meet JavaScript hacks going down this week at hackeryou. Excited for demo day!",
+    caption: "He's such a cute kitten #meow 😻",
     likes: 57,
     id: "1135147611821557699",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Cute-Kitten.jpg"
   },
   {
     code: "-1rhFawccs",
-    caption: "Some major audio upgrades coming to my next videos 😍",
+    caption: "Froggy's Deli has the best sandwiches in America #fact 🥪🇺🇸",
     likes: 39,
     id: "1132002270913873708",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Froggys-Deli.jpg"
   },
   {
     code: "-pjx-gQcVi",
-    caption: "My baby and me. Thanks to @bearandsparrow for this one.",
+    caption: "Great place to visit in Miami",
     likes: 81,
     id: "1128590547628442978",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/The-Wharf-Miami.jpg"
   },
   {
     code: "-oTZ0zQcWt",
-    caption: "It's too early. Send coffee.",
+    caption: "Really cool island",
     likes: 81,
     id: "1128237044221461933",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "-mxKQoQcQh",
-    caption: "They both have figured it out. #lifewithsnickers",
-    likes: 47,
-    id: "1127804966031967265",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "-fasqlQceO",
-    caption:
-      "Kaitlin decorated the house for the Christmas. So gezellig! #casabos",
-    likes: 46,
-    id: "1125735850454402958",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
-  },
-  {
-    code: "-VBgtGQcSf",
-    caption: "Trying the new Hamilton Brewery beer. Big fan.",
-    likes: 27,
-    id: "1122810327591928991",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/St-Thomas.jpg"
   },
   {
     code: "-FpTyHQcau",
-    caption:
-      "I'm in Austin for a conference and doing some training. Enjoying some local brew with my baby.",
-    likes: 82,
+    caption: "Egg",
+    likes: "245",
     id: "1118481761857291950",
-    display_src: `https://picsum.photos/400/400/?image=${Math.floor(
-      Math.random() * 85
-    )}`
+    display_src: "https://reduxstagram.io/client/img/Egg.jpg"
   }
 ];
 
