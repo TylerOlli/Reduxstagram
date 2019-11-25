@@ -80,14 +80,14 @@ const posts = [
   },
   {
     code: "_ep9kiQcVy",
-    caption: "This is Charlite... he's really hungry",
+    caption: "This is Charlie... he's really hungry",
     likes: 64,
     id: "1143535906423162226",
     display_src: "https://reduxstagram.io/client/img/Feed-Me-NOW.jpg"
   },
   {
     code: "_Fq2zmwcaz",
-    caption: "Best place to golf in all of Orlando golf 🏌🏻‍♂️⛳️",
+    caption: "Best place to golf in all of Orlando golf ‍⛳️",
     likes: 48,
     id: "1136502965197194931",
     display_src:
